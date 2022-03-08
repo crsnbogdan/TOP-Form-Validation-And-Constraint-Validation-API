@@ -8,7 +8,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Project Name',
+            title: 'Form Validation and Constraint Validation API',
             template: 'src/index.html',
             children: true,
         }),

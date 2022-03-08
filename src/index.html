@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Validation and Validation Constraints API</title>
+    <title>Form Validation and Constraint Validation API</title>
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,7 +26,7 @@
                     <label for="zip">ZIP Code</label>
                     <input id="zip" name="zip" type="text" required>
                 </div>
-                <span class=" input-error" id="zip-error">Err</span>
+                <span class=" input-error" id="zip-error"></span>
             </div>
             <div class="form-section">
                 <div class="section-input">
@@ -37,21 +37,21 @@
                         <option value="Great Britain">Great Britain</option>
                     </select>
                 </div>
-                <span class="input-error" id="country-error">Err</span>
+                <span class="input-error" id="country-error"></span>
             </div>
             <div class="form-section">
                 <div class="section-input">
                     <label for="password">Password</label>
-                    <input type="text" id="password" required>
+                    <input type="password" id="password" pattern="^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{8,}$" minlength="8" maxlength="32" required>
                 </div>
-                <span class="input-error" id="password-error">Err</span>
+                <span class="input-error" id="password-error"></span>
             </div>
             <div class="form-section">
                 <div class="section-input">
                     <label for="confirmation">Password</label>
-                    <input type="text" id="confirmation" required>
+                    <input type="password" id="confirmation" pattern="^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{8,}$" minlength="8" maxlength="32" required>
                 </div>
-                <span class="input-error" id="confirmation-error">Err</span>
+                <span class="input-error" id="confirmation-error"></span>
             </div>
             <button>Submit</button>
         </form>
