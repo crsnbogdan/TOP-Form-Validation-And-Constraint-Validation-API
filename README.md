@@ -1,13 +1,12 @@
 TITLE: Form Validation and Constraint Validation API
 
-VERSION NUMBER:1.0.3
+VERSION NUMBER:1.0.4
 
-DESCRIPTION: Project created for the purpose of understanding the Constraint Validation API and Form Validation using JavaScript
+DESCRIPTION: Project created for the purpose of learning about and understanding the Constraint Validation API and Form Validation using JavaScript
 
-PROJECT STATUS: In Progress
+PROJECT STATUS: Completed
 
-TO DO:
-- display a message when the form is submitted
+TO DO: -
 
 TECHNOLOGIES USED: HTML, CSS, JS, NPM, Webpack, ESLint, NPM, Prettier, Constraint Validation API
 
